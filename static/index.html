@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle-Eye OSINT Tool</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-measure@3.1.0/dist/leaflet-measure.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <div class="splash-container">
+            <div class="splash-header">
+                <div class="logo-container">
+                    <div class="logo-icon"><i class="fas fa-eye"></i></div>
+                    <div class="logo-text">EAGLE-EYE</div>
+                </div>
+                <div class="tagline">Advanced OSINT & Geospatial Intelligence Tool</div>
+                <div class="decorative-line"></div>
+            </div>
+            
+            <div class="splash-body">
+                <div class="splash-column features-column">
+                    <div class="column-header">
+                        <i class="fas fa-cube"></i>
+                        <h2>Capabilities</h2>
+                    </div>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-satellite"></i> Satellite Imagery Analysis</li>
+                        <li><i class="fas fa-history"></i> Historical Data Archive</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Precision Geolocation</li>
+                        <li><i class="fas fa-draw-polygon"></i> Area Measurement Tools</li>
+                        <li><i class="fas fa-camera"></i> Intelligence Capture</li>
+                    </ul>
+                </div>
+                
+                <div class="splash-column about-column">
+                    <div class="column-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h2>About</h2>
+                    </div>
+                    <p class="about-text">
+                        Eagle-Eye is a professional-grade OSINT tool developed by Hexguard Security to assist intelligence analysts, researchers, and security professionals in geospatial investigations.
+                    </p>
+                    <div class="hexguard-badge">
+                        <span>Powered by</span>
+                        <a href="https://hexguard.net" target="_blank">HEXGUARD SECURITY</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="splash-footer">
+                <div class="social-links">
+                    <a href="https://github.com/hexguard/eagle-eye" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://hexguard.net" class="social-link" target="_blank"><i class="fas fa-globe"></i></a>
+                    <a href="https://www.linkedin.com/company/hexguardsec" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://discord.gg/j2fFUYT8h7" class="social-link" target="_blank"><i class="fab fa-discord"></i></a>
+                </div>
+                <button id="start-button" class="start-btn">
+                    <span class="btn-text">LAUNCH APPLICATION</span>
+                    <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <div class="version">Version 1.0</div>
+            </div>
+        </div>
+        <div class="background-glow"></div>
+        <div class="background-grid"></div>
+    </div>
+    
+    <!-- Main Application -->
+    <div id="main-app" class="hidden">
+        <div id="map"></div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+    <script src="https://unpkg.com/leaflet-measure@3.1.0/dist/leaflet-measure.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>

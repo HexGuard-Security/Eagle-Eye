@@ -11,7 +11,9 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hexguard/eagle-eye/main/static/assets/eagle-eye-preview.png" alt="Eagle-Eye Screenshot" width="700">
+  <img src="img/1.png" alt="Eagle-Eye Splash Screen" width="700">
+  <br>
+  <em>Eagle-Eye professional splash screen</em>
 </p>
 
 ## ⚠️ Educational Use Disclaimer
@@ -43,6 +45,16 @@ Eagle-Eye provides a comprehensive suite of OSINT capabilities for geospatial in
 - **Measurement Tools**: Calculate distances and areas for spatial analysis
 - **Intelligence Capture**: Screenshot and export capabilities for reporting and documentation
 - **Advanced UI**: Professional, glass-morphic interface with intuitive controls
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <p><b>Street View Mode</b></p>
+  <img src="img/2.png" alt="Eagle-Eye Street View" width="800">
+  <br><br>
+  <p><b>Satellite View Mode</b></p>
+  <img src="img/3.png" alt="Eagle-Eye Satellite View" width="800">
+</div>
 
 ## 🔧 Technical Requirements
 
@@ -146,6 +158,6 @@ For inquiries regarding Eagle-Eye or other Hexguard Security tools, please conta
 ---
 
 <div align="center">
-  <p>© 2025 Hexguard Security. All rights reserved.</p>
-  <p>🔒 Empowering intelligence operations through ethical OSINT tools 🔍</p>
+  <p>&copy; 2025 Hexguard Security. All rights reserved.</p>
+  <p>&#x1F510; Empowering intelligence operations through ethical OSINT tools &#x1F510;</p>
 </div>

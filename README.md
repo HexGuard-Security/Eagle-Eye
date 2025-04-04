@@ -145,7 +145,7 @@ Eagle-Eye is released under the MIT License. See the [LICENSE](https://github.co
 - [Hexguard Security](https://hexguard.net)
 - [GitHub Repository](https://github.com/hexguard/eagle-eye)
 - [Issue Tracker](https://github.com/hexguard/eagle-eye/issues)
-- [Documentation](https://docs.hexguard.net/eagle-eye)
+- [Contributing Guidelines](https://github.com/hexguard/eagle-eye/blob/main/CONTRIBUTING.md)
 
 ## 📞 Contact
 
